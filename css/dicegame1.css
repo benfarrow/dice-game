@@ -1,0 +1,18 @@
+/* .container { */
+  /* text-align: center;
+} */
+body {
+  background-color: bisque;
+}
+h1{
+  font-size:80px;
+  text-shadow: 5px royalblue;
+  color: rebeccapurple;
+
+}
+
+button {
+  background-color: royalblue;
+  color: crimson;
+  size: 30px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>TEST</title>        
+</head>
+<body>
+ 
+<script>
+ 
+ 
+ 
+function myFunction(){
+    var randomNumber    =   Math.floor(Math.random() * 6)+1//1-6 roll
+    var diceImages="images/dice"+randomNumber+".png" //pull dice image 1-6 based on randomNumber var
+ 
+    document.getElementById('diceImage').src=diceImages;
+}
+</script>
+ 
+<img id="diceImage" src="C:\\Users\\user\\Desktop\\html_js\\images\\dice3.png"/>
+<button onclick="myFunction()">test</button>
+ 
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/dicegame1.css">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" id="diceButton" onclick="diceImages"></button>
+   
+
+<script type="text/javascript" src="js/dicegame1.js"></script>
+</body>
+
+</html> -->
+
